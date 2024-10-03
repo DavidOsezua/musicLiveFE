@@ -1,0 +1,35 @@
+.genre {
+  display: flex;
+  gap: 0.9rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+.image {
+  width: 40px;
+}
+
+@media screen and (min-width: 500px) {
+  /* .image {
+    width: 35px;
+  } */
+}
+@media screen and (min-width: 550px) {
+  .image {
+    width: 64px;
+  }
+}
+@media screen and (min-width: 820px) {
+  .genre {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .genre {
+    gap: 1.3rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
